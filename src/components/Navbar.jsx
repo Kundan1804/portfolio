@@ -3,16 +3,34 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { logo,klogo,klogo2,klogo3, menu, close } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
   const [toggle, setToggle] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
 
   return (
-    <nav className={`${styles.paddingX} w-full flex 
-    items-center py5 fixed top-0 z-20 bg-primary`}
+    <nav className={`${
+      styles.paddingX
+    } w-full flex items-center py-5 fixed top-0 z-20 ${
+      scrolled ? "bg-primary" : "bg-transparent"
+    }`}
     >
       <div className='w-full flex justify-between 
       items-center max-w-7xl mx-auto'>
@@ -24,12 +42,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 
+          <img src={klogo} alt='logo' className='w-9 
           h-9 object-contain' />
           <p className='text-white text-[18px] 
           font-bold cursor-pointer flex'>Kundan &nbsp;
-            <span className='sm:block hidden'>| JS
-              Mastery</span>
+            <span className='sm:block hidden'>| Developer</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex 

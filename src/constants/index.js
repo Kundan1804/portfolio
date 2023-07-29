@@ -24,9 +24,14 @@ import {
     tesla,
     shopify,
     carrent,
+    MeloMix,
+    disney,
+    hotstar,
+    fb,
     jobit,
     tripguide,
     threejs,
+    sclearn,
 } from "../assets";
 
 export const navLinks = [
@@ -76,10 +81,10 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "React JS",
         icon: reactjs,
@@ -115,6 +120,10 @@ const technologies = [
     {
         name: "docker",
         icon: docker,
+    },
+    {
+        name: "scikit learn",
+        icon: sclearn,
     },
 ];
 
@@ -176,35 +185,35 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "I have always put a premium on leaderhsip and problem solving ties amongnst my team mates which Kundan never failed to deliver.",
+        name: "Syed Hamid",
+        designation: "CEO",
+        company: "Edjobster",
+        image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
+            "I've never met a web developer who truly cares about their clients' success like Kundan does.",
+        name: "Ishwardatt Singh",
+        designation: "Director",
+        company: "Jab Companies",
         image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
+            "As an intern, Kundan was always reliable and resourceful. I could always depend on him when in jam.",
+        name: "Nipun Walia",
         designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        company: "Mastork Technologies",
+        image: "https://randomuser.me/api/portraits/men/6.jpg",
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "MeloMix",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "MeloMix is a user-friendly music player web app, enabling personalized playlists, artist-specific song listings, and customized song recommendations for an immersive and enjoyable musical experience.",
         tags: [
             {
                 name: "react",
@@ -219,13 +228,13 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: MeloMix,
+        source_code_link: "https://github.com/Kundan1804",
     },
     {
         name: "Facebook-Clone",
         description:
-            "Developed Facebook replica with features to share text, image as well as gifs amongst each other Users can follow their favorite facebook pages and be up-todate with the current world.",
+            "Developed Facebook replica with features to share text, image as well as gifs. Users can follow their favorite facebook pages and be up-todate with the current world-https://facebook-clone-9795f.web.app/.",
         tags: [
             {
                 name: "react",
@@ -240,29 +249,29 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: fb,
+        source_code_link: "https://github.com/Kundan1804",
     },
     {
         name: "Disney+ Hotstar",
         description:
-            "Created a visually stunning Disney+ Hotstar clone: Designed and developed a visually appealing and slick user interface Movies are segregated based on their genres.",
+            "Created a visually stunning Disney+ Hotstar clone: Designed and developed a visually appealing and slick user interface. Movies are segregated based on their genres- https:// disneyplus-clone-96371.web.app/.",
         tags: [
             {
                 name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "StyledComponents",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "firebase",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: disney,
+        source_code_link: "https://github.com/Kundan1804",
     },
 ];
 

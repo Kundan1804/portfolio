@@ -1,4 +1,7 @@
 import logo from "./logo.svg";
+import klogo from "./klogo.png";
+import klogo2 from "./klogo2.png";
+import klogo3 from "./klogo2.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +23,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sclearn from "./tech/sclearn.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -33,9 +37,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import MeloMix from "./MeloMix.png";
+import disney from "./disney.png";
+import hotstar from "./hotstar.png";
+import fb from "./fb.png";
 
 export {
   logo,
+  klogo,
+  klogo2,
+  klogo3,
   backend,
   creator,
   mobile,
@@ -67,4 +78,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  MeloMix,
+  disney,
+  hotstar,
+  fb,
+  sclearn,
 };
